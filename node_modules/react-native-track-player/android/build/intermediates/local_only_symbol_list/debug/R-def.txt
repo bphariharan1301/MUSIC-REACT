@@ -1,0 +1,9 @@
+R_DEF: Internal format may change without notice
+local
+drawable forward
+drawable next
+drawable pause
+drawable play
+drawable previous
+drawable rewind
+drawable stop

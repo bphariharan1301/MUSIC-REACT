@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "403899387827",
+    "project_id": "react-music-player-7a2fc",
+    "storage_bucket": "react-music-player-7a2fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403899387827:android:1566829d3a0b6b144145c6",
+        "android_client_info": {
+          "package_name": "com.musicplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403899387827-mbssj75r22457teotlqi80tlra5pf0a5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2cm2tFEdbGBjF-PY3vM5REV3FO28d_aQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403899387827-mbssj75r22457teotlqi80tlra5pf0a5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

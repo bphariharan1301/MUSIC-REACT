@@ -1,0 +1,322 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.musicplayer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\bphar\.gradle\caches\transforms-3\148b4df324a3dd4049bf2d1dcd029f78\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\bphar\.gradle\caches\transforms-3\148b4df324a3dd4049bf2d1dcd029f78\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:react-native-firebase_auth] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-68
+14-->[:react-native-firebase_auth] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:react-native-firebase_auth] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-79
+15-->[:react-native-firebase_auth] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-76
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->[:react-native-track-player] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-77
+16-->[:react-native-track-player] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-74
+17    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+17-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\bphar\.gradle\caches\transforms-3\e1a7a358e8caecbbf3c2235b5fcb064b\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:25:5-79
+17-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\bphar\.gradle\caches\transforms-3\e1a7a358e8caecbbf3c2235b5fcb064b\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:25:22-76
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\bphar\.gradle\caches\transforms-3\3615ff9b4bef757347045cb632576414\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\bphar\.gradle\caches\transforms-3\3615ff9b4bef757347045cb632576414\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:26:22-107
+19
+20    <application
+20-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\main\AndroidManifest.xml:6:5-25:19
+21        android:name="com.musicplayer.MainApplication"
+21-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\main\AndroidManifest.xml:7:7-38
+22        android:allowBackup="false"
+22-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\main\AndroidManifest.xml:11:7-34
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.5.0] C:\Users\bphar\.gradle\caches\transforms-3\96d12a922f82db2414cbd8fc3a969882\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\main\AndroidManifest.xml:9:7-41
+26        android:label="@string/app_name"
+26-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\main\AndroidManifest.xml:8:7-39
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\main\AndroidManifest.xml:10:7-52
+28        android:theme="@style/AppTheme"
+28-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\main\AndroidManifest.xml:12:7-38
+29        android:usesCleartextTraffic="true" >
+29-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\debug\AndroidManifest.xml:8:9-44
+30        <activity
+30-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\debug\AndroidManifest.xml:11:9-111
+31            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+31-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\debug\AndroidManifest.xml:11:19-83
+32            android:exported="false" />
+32-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\debug\AndroidManifest.xml:11:84-108
+33        <activity
+33-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\main\AndroidManifest.xml:13:7-24:18
+34            android:name="com.musicplayer.MainActivity"
+34-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\main\AndroidManifest.xml:14:9-37
+35            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+35-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\main\AndroidManifest.xml:16:9-118
+36            android:exported="true"
+36-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\main\AndroidManifest.xml:19:9-32
+37            android:label="@string/app_name"
+37-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\main\AndroidManifest.xml:15:9-41
+38            android:launchMode="singleTask"
+38-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\main\AndroidManifest.xml:17:9-40
+39            android:windowSoftInputMode="adjustResize" >
+39-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\main\AndroidManifest.xml:18:9-51
+40            <intent-filter>
+40-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\main\AndroidManifest.xml:20:9-23:25
+41                <action android:name="android.intent.action.MAIN" />
+41-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\main\AndroidManifest.xml:21:13-65
+41-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\main\AndroidManifest.xml:21:21-62
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\main\AndroidManifest.xml:22:13-73
+43-->D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\android\app\src\main\AndroidManifest.xml:22:23-70
+44            </intent-filter>
+45        </activity>
+46
+47        <meta-data
+47-->[:react-native-firebase_app] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:36
+48            android:name="app_data_collection_default_enabled"
+48-->[:react-native-firebase_app] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-63
+49            android:value="true" />
+49-->[:react-native-firebase_app] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-33
+50
+51        <service
+51-->[:react-native-firebase_app] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-18:19
+52            android:name="com.google.firebase.components.ComponentDiscoveryService"
+52-->[:react-native-firebase_app] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:18-89
+53            android:directBootAware="true"
+53-->[com.google.firebase:firebase-common:20.1.0] C:\Users\bphar\.gradle\caches\transforms-3\8b00019310c727f0ec3bf8b182d50cc9\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+54            android:exported="false" >
+54-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:66:13-37
+55            <meta-data
+55-->[:react-native-firebase_app] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:85
+56                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+56-->[:react-native-firebase_app] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-120
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[:react-native-firebase_app] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-82
+58            <meta-data
+58-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:67:13-69:85
+59                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+59-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:68:17-109
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:69:17-82
+61            <meta-data
+61-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\bphar\.gradle\caches\transforms-3\e1a7a358e8caecbbf3c2235b5fcb064b\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:31:13-33:85
+62                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+62-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\bphar\.gradle\caches\transforms-3\e1a7a358e8caecbbf3c2235b5fcb064b\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:32:17-139
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\bphar\.gradle\caches\transforms-3\e1a7a358e8caecbbf3c2235b5fcb064b\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:33:17-82
+64            <meta-data
+64-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\bphar\.gradle\caches\transforms-3\46dd1ae9feef4ebce23faf7aa108fe95\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+65                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+65-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\bphar\.gradle\caches\transforms-3\46dd1ae9feef4ebce23faf7aa108fe95\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\bphar\.gradle\caches\transforms-3\46dd1ae9feef4ebce23faf7aa108fe95\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+67        </service>
+68
+69        <provider
+69-->[:react-native-firebase_app] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-24:38
+70            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+70-->[:react-native-firebase_app] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-88
+71            android:authorities="com.musicplayer.reactnativefirebaseappinitprovider"
+71-->[:react-native-firebase_app] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-86
+72            android:exported="false"
+72-->[:react-native-firebase_app] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+73            android:initOrder="99" />
+73-->[:react-native-firebase_app] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-35
+74
+75        <activity
+75-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:27:9-44:20
+76            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+76-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:28:13-80
+77            android:excludeFromRecents="true"
+77-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:29:13-46
+78            android:exported="true"
+78-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:30:13-36
+79            android:launchMode="singleTask"
+79-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:31:13-44
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+80-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:32:13-72
+81            <intent-filter>
+81-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:33:13-43:29
+82                <action android:name="android.intent.action.VIEW" />
+82-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:34:17-69
+82-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:34:25-66
+83
+84                <category android:name="android.intent.category.DEFAULT" />
+84-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:36:17-76
+84-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:36:27-73
+85                <category android:name="android.intent.category.BROWSABLE" />
+85-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:37:17-78
+85-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:37:27-75
+86
+87                <data
+87-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:39:17-42:51
+88                    android:host="firebase.auth"
+88-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:40:21-49
+89                    android:path="/"
+89-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:41:21-37
+90                    android:scheme="genericidp" />
+90-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:42:21-48
+91            </intent-filter>
+92        </activity>
+93        <activity
+93-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:45:9-62:20
+94            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+94-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:46:13-79
+95            android:excludeFromRecents="true"
+95-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:47:13-46
+96            android:exported="true"
+96-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:48:13-36
+97            android:launchMode="singleTask"
+97-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:49:13-44
+98            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+98-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:50:13-72
+99            <intent-filter>
+99-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:51:13-61:29
+100                <action android:name="android.intent.action.VIEW" />
+100-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:34:17-69
+100-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:34:25-66
+101
+102                <category android:name="android.intent.category.DEFAULT" />
+102-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:36:17-76
+102-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:36:27-73
+103                <category android:name="android.intent.category.BROWSABLE" />
+103-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:37:17-78
+103-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:37:27-75
+104
+105                <data
+105-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:39:17-42:51
+106                    android:host="firebase.auth"
+106-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:40:21-49
+107                    android:path="/"
+107-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:41:21-37
+108                    android:scheme="recaptcha" />
+108-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\bphar\.gradle\caches\transforms-3\3a498cc8a2d1349d9267d7195bf32fc9\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:42:21-48
+109            </intent-filter>
+110        </activity> <!-- The main service, handles playback, playlists and media buttons -->
+111        <service
+111-->[:react-native-track-player] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-22:19
+112            android:name="com.guichaguri.trackplayer.service.MusicService"
+112-->[:react-native-track-player] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-75
+113            android:enabled="true"
+113-->[:react-native-track-player] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-35
+114            android:exported="true" >
+114-->[:react-native-track-player] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-36
+115            <intent-filter>
+115-->[:react-native-track-player] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-21:29
+116                <action android:name="android.intent.action.MEDIA_BUTTON" />
+116-->[:react-native-track-player] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-77
+116-->[:react-native-track-player] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:25-74
+117            </intent-filter>
+118        </service> <!-- A receiver that will receive media buttons. Required on pre-lollipop devices -->
+119        <receiver
+119-->[:react-native-track-player] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-31:20
+120            android:name="androidx.media.session.MediaButtonReceiver"
+120-->[:react-native-track-player] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-70
+121            android:exported="true" >
+121-->[:react-native-track-player] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-36
+122            <intent-filter>
+122-->[:react-native-track-player] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-21:29
+123                <action android:name="android.intent.action.MEDIA_BUTTON" />
+123-->[:react-native-track-player] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-77
+123-->[:react-native-track-player] D:\AAdityAA\SIST\MUSIC APP\REACT MUSIC\musicplayer\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:25-74
+124            </intent-filter>
+125        </receiver>
+126
+127        <provider
+127-->[com.google.firebase:firebase-common:20.1.0] C:\Users\bphar\.gradle\caches\transforms-3\8b00019310c727f0ec3bf8b182d50cc9\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+128            android:name="com.google.firebase.provider.FirebaseInitProvider"
+128-->[com.google.firebase:firebase-common:20.1.0] C:\Users\bphar\.gradle\caches\transforms-3\8b00019310c727f0ec3bf8b182d50cc9\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+129            android:authorities="com.musicplayer.firebaseinitprovider"
+129-->[com.google.firebase:firebase-common:20.1.0] C:\Users\bphar\.gradle\caches\transforms-3\8b00019310c727f0ec3bf8b182d50cc9\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+130            android:directBootAware="true"
+130-->[com.google.firebase:firebase-common:20.1.0] C:\Users\bphar\.gradle\caches\transforms-3\8b00019310c727f0ec3bf8b182d50cc9\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+131            android:exported="false"
+131-->[com.google.firebase:firebase-common:20.1.0] C:\Users\bphar\.gradle\caches\transforms-3\8b00019310c727f0ec3bf8b182d50cc9\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+132            android:initOrder="100" />
+132-->[com.google.firebase:firebase-common:20.1.0] C:\Users\bphar\.gradle\caches\transforms-3\8b00019310c727f0ec3bf8b182d50cc9\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+133
+134        <receiver
+134-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\bphar\.gradle\caches\transforms-3\3615ff9b4bef757347045cb632576414\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:29:9-33:20
+135            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+135-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\bphar\.gradle\caches\transforms-3\3615ff9b4bef757347045cb632576414\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:30:13-85
+136            android:enabled="true"
+136-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\bphar\.gradle\caches\transforms-3\3615ff9b4bef757347045cb632576414\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:31:13-35
+137            android:exported="false" >
+137-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\bphar\.gradle\caches\transforms-3\3615ff9b4bef757347045cb632576414\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:32:13-37
+138        </receiver>
+139
+140        <service
+140-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\bphar\.gradle\caches\transforms-3\3615ff9b4bef757347045cb632576414\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:35:9-38:40
+141            android:name="com.google.android.gms.measurement.AppMeasurementService"
+141-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\bphar\.gradle\caches\transforms-3\3615ff9b4bef757347045cb632576414\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:36:13-84
+142            android:enabled="true"
+142-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\bphar\.gradle\caches\transforms-3\3615ff9b4bef757347045cb632576414\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:37:13-35
+143            android:exported="false" />
+143-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\bphar\.gradle\caches\transforms-3\3615ff9b4bef757347045cb632576414\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:38:13-37
+144        <service
+144-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\bphar\.gradle\caches\transforms-3\3615ff9b4bef757347045cb632576414\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:39:9-43:72
+145            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+145-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\bphar\.gradle\caches\transforms-3\3615ff9b4bef757347045cb632576414\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:40:13-87
+146            android:enabled="true"
+146-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\bphar\.gradle\caches\transforms-3\3615ff9b4bef757347045cb632576414\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:41:13-35
+147            android:exported="false"
+147-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\bphar\.gradle\caches\transforms-3\3615ff9b4bef757347045cb632576414\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:42:13-37
+148            android:permission="android.permission.BIND_JOB_SERVICE" />
+148-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\bphar\.gradle\caches\transforms-3\3615ff9b4bef757347045cb632576414\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:43:13-69
+149
+150        <activity
+150-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\bphar\.gradle\caches\transforms-3\76601af441a47233109d2bdb58777ef9\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:23:9-27:75
+151            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+151-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\bphar\.gradle\caches\transforms-3\76601af441a47233109d2bdb58777ef9\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:24:13-93
+152            android:excludeFromRecents="true"
+152-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\bphar\.gradle\caches\transforms-3\76601af441a47233109d2bdb58777ef9\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:25:13-46
+153            android:exported="false"
+153-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\bphar\.gradle\caches\transforms-3\76601af441a47233109d2bdb58777ef9\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:26:13-37
+154            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+154-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\bphar\.gradle\caches\transforms-3\76601af441a47233109d2bdb58777ef9\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:27:13-72
+155        <!--
+156            Service handling Google Sign-In user revocation. For apps that do not integrate with
+157            Google Sign-In, this service will never be started.
+158        -->
+159        <service
+159-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\bphar\.gradle\caches\transforms-3\76601af441a47233109d2bdb58777ef9\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:33:9-37:51
+160            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+160-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\bphar\.gradle\caches\transforms-3\76601af441a47233109d2bdb58777ef9\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:34:13-89
+161            android:exported="true"
+161-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\bphar\.gradle\caches\transforms-3\76601af441a47233109d2bdb58777ef9\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:35:13-36
+162            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+162-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\bphar\.gradle\caches\transforms-3\76601af441a47233109d2bdb58777ef9\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:36:13-107
+163            android:visibleToInstantApps="true" />
+163-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\bphar\.gradle\caches\transforms-3\76601af441a47233109d2bdb58777ef9\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:37:13-48
+164
+165        <activity
+165-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\bphar\.gradle\caches\transforms-3\c93ec3e4d2f1dbb48fa6aca851c41b11\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+166            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+166-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\bphar\.gradle\caches\transforms-3\c93ec3e4d2f1dbb48fa6aca851c41b11\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+167            android:exported="false"
+167-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\bphar\.gradle\caches\transforms-3\c93ec3e4d2f1dbb48fa6aca851c41b11\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+168            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+168-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\bphar\.gradle\caches\transforms-3\c93ec3e4d2f1dbb48fa6aca851c41b11\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+169
+170        <meta-data
+170-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\bphar\.gradle\caches\transforms-3\0b8c5c9504747d9327e79e7efce4d00c\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+171            android:name="com.google.android.gms.version"
+171-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\bphar\.gradle\caches\transforms-3\0b8c5c9504747d9327e79e7efce4d00c\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+172            android:value="@integer/google_play_services_version" />
+172-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\bphar\.gradle\caches\transforms-3\0b8c5c9504747d9327e79e7efce4d00c\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+173    </application>
+174
+175</manifest>

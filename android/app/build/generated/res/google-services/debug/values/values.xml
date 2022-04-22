@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">403899387827-mbssj75r22457teotlqi80tlra5pf0a5.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">403899387827</string>
+    <string name="google_api_key" translatable="false">AIzaSyD2cm2tFEdbGBjF-PY3vM5REV3FO28d_aQ</string>
+    <string name="google_app_id" translatable="false">1:403899387827:android:1566829d3a0b6b144145c6</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD2cm2tFEdbGBjF-PY3vM5REV3FO28d_aQ</string>
+    <string name="google_storage_bucket" translatable="false">react-music-player-7a2fc.appspot.com</string>
+    <string name="project_id" translatable="false">react-music-player-7a2fc</string>
+</resources>
